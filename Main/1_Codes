@@ -9,9 +9,9 @@ from tweepy.streaming import StreamListener
 
 
 consumer_key = 'BBZeThNQwTZeeU6XLFXbbmmLZ'
-consumer_secret = 'kxu1E4KUXkNz1oR6mi2bYKwlFcfopf5He30K4HbEFkXOcz2UHx'
+consumer_secret = ''
 access_token = '68661174-tkh4whbiRPcmjX4wZjfvz3yproYCM9Mwe7OHUBaAN'
-access_token_secret = 'RhPOUF44qyFrOWboEZ4fLZUEDI76OGAUxwrWiBFpF1XCX'
+access_token_secret = ''
 auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
@@ -25,9 +25,9 @@ for tweet in public_tweets:
 #Codes for saving Table
 
 consumer_key= 'BBZeThNQwTZeeU6XLFXbbmmLZ'
-consumer_secret='kxu1E4KUXkNz1oR6mi2bYKwlFcfopf5He30K4HbEFkXOcz2UHx'
+consumer_secret=''
 access_token='68661174-tkh4whbiRPcmjX4wZjfvz3yproYCM9Mwe7OHUBaAN'
-access_token_secret='RhPOUF44qyFrOWboEZ4fLZUEDI76OGAUxwrWiBFpF1XCX'
+access_token_secret=''
 auth=tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token,access_token_secret)
 api=tweepy.API(auth)
